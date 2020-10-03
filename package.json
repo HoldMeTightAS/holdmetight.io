@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": ["sanity", "web"],
+  "scripts": {
+    "sanity": "yarn workspace @holdmetight/sanity",
+    "web": "yarn workspace @holdmetight/web"
+  }
+}
