@@ -26,12 +26,12 @@ jobs:
     - name: Yarn install
       run: yarn install
     - name: Lint 
-      run: yarn lint
+      run: yarn web lint
     - name: Test
-      run: yarn test
+      run: yarn web test
     - name: Build
-      run: yarn build
+      run: yarn web build
     - name: Generate coverage report
-      run: yarn coverage
+      run: yarn web coverage
     - name: Upload coverage report
       uses: codecov/codecov-action@v1
